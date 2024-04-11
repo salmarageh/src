@@ -88,4 +88,13 @@
         <div class="spinner-border" role="status"></div>
     </div>
     <div id="post-box" class="mt-1"></div>
+    <hr>
+    <div class="author-info">
+        <div>
+            <img src="{{obj.author.avatar.url}}" class="rounded-circle" style="width: 80px; height: 80px;" alt="{{ obj.author.username }}">
+        </div>
+        <div class="author-name">
+            <p>{{obj.author.user.username}}</p>
+        </div>
+    </div>
 {% endblock content %}
